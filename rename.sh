@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 
-find -name "*.txt" > temp    #finds all the .txt files in the current and subdirectories and the optput is passed to temp
+#find -name "*.txt" > temp    #finds all the .txt files in the current and subdirectories and the optput is passed to temp
+ls *.txt > temp               #finds all the .txt files in the current directory and the optput is passed to temp
 
 file=temp  #declaring file variable
 
