@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 #if argument is entered then passing it to cowsay command
-if [ $1 ]
+if [ $# != 0 ]
 then
 	cowsay $1
 else
